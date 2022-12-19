@@ -33,3 +33,53 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.hero-container {
+  box-sizing: border-box;
+  display: flex;
+  background-color: #1f2937;
+  width: 100%;
+  justify-content: center;
+}
+
+.hero-content {
+  display: flex;
+  gap: 16px;
+  padding: 100px;
+}
+
+.hero-text {
+  width: 30%;
+  flex: 1 1 auto;
+}
+
+.hero-main-text {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 900;
+  margin: 0;
+}
+
+.hero-secondary-text {
+  color: #e5e7eb;
+  font-size: 18px;
+  margin: 0;
+  padding: 0px 0px 8px 0px;
+}
+
+.btn {
+  color: white;
+  background-color: #3882f6;
+  padding: 8px 24px;
+  border-radius: 5px;
+  border: none;
+}
+
+.hero-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #656668;
+  width: 30%;
+  flex: 1.5 1 auto;
+}
