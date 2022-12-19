@@ -4,6 +4,7 @@ body {
   align-items: center;
   margin: 0;
   padding: 0;
+  font-family: ;
 }
 
 .spacer {
@@ -73,6 +74,10 @@ body {
   padding: 8px 24px;
   border-radius: 5px;
   border: none;
+}
+
+.btn:hover {
+  background-image: linear-gradient(rgb(0 0 0/20%) 0 0);
 }
 
 .hero-img-container {
@@ -156,4 +161,45 @@ body {
   font-size: 24px;
   color: #1f2937;
   font-weight: 900;
+}
+
+.cta-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0px;
+  width: 70%;
+}
+
+.cta-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 100px;
+  border-radius: 5px;
+  background-color: #2a64c2;
+  color: white;
+  width: 100%;
+}
+
+.cta-spacer {
+  width: 5%;
+}
+
+.cta-btn {
+  border: solid 2px white;
+  background-color: transparent;
+  flex: 0 0 auto;
+}
+
+.cta-text-ln-1 {
+  font-weight: 900;
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+.cta-text-ln-2 {
+  margin: 0;
+  padding: 0;
 }
